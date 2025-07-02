@@ -8,7 +8,7 @@ import calendar
  
 st.set_page_config(layout="wide")
 
-d=pd.read_csv("C:\ASHWINIPROJECTS\First_Project_startupfunding\cleaned_data6.csv")
+d=pd.read_csv("cleaned_data6.csv")
 d["Date"]=pd.to_datetime(d["Date"])
 
 def load_top_startup(p):
